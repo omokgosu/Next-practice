@@ -18,8 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="navbar">
-          <Link href="/">홈</Link>
+          <Link href="/" style={{color: 'red'}}>홈</Link>
           <Link href="/list">List</Link>
+          <Link href="/cart">cart</Link>
         </div>
         {children}
       </body>

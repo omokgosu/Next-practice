@@ -28,3 +28,15 @@ body{
   margin-right: 10px;
   text-decoration: none;
 }
+img{
+  width: 100%;
+  height: auto;
+}
+
+.cart-item{
+  padding: 10px;
+  display: flex;
+  justify-content:  space-around;
+  border-bottom: solid 1px gray;
+  line-height: 0px;
+}
