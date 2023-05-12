@@ -1,8 +1,9 @@
-body{
+body {
   margin: 0;
-  background: #303030;
+  background-color: #303030;
   color: white;
 }
+
 .title{
   text-align: center;
   margin-top: 50px;
@@ -10,7 +11,6 @@ body{
 .title-sub{
   text-align: center;
 }
-
 .food{
   margin: 20px auto;
   width: 200px;
@@ -32,11 +32,10 @@ img{
   width: 100%;
   height: auto;
 }
-
-.cart-item{
+.cart-item {
   padding: 10px;
   display: flex;
-  justify-content:  space-around;
-  border-bottom: solid 1px gray;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
   line-height: 0px;
-}
+} 
